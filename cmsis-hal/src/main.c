@@ -10,9 +10,6 @@
 UART_HandleTypeDef huart1;
 __IO ITStatus UartReady = RESET;
 
-static int ledState = 0;
-
-
 __attribute__( ( always_inline ) ) __STATIC_INLINE void SystemClock_Config(void);
 __attribute__( ( always_inline ) ) __STATIC_INLINE void MX_GPIO_Init(void);
 __attribute__( ( always_inline ) ) __STATIC_INLINE void MX_UART1_Init(void);

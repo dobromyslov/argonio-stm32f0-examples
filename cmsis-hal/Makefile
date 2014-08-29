@@ -12,8 +12,7 @@ CSRC += src/main.c \
 
 ASMSRC += 
 
-INCDIR += src/conf \
-          src
+INCDIR += conf
 
 ##############################################################################
 # Compiler settings
